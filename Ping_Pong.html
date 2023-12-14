@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ping_Pong.css">
+    <title>Ping Pong Game</title>
+    <style>
+        .winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <center>
+    <div class="card">
+        <img src="https://tabletennis.h5games.usercontent.goog/v/24f1dad4-8ec6-4a10-8700-168324e23c86/high_res_banner.jpg" alt="">
+        <div class="container">
+    <h1><span id="p1score">0</span> to <span id="p2score">0</span></h1>
+    <label for="score">Total Rounds:</label>
+    <select name="score" id="scoreToWin">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+        <option value="9">9</option>
+        <option value="11">11</option>
+    </select>
+    <br><br>
+    <button id="p1">Player 1</button>
+    <button id="p2">Player 2</button>
+    <button id="reset">Reset</button>
+</div>
+</div>
+</center>
+    <script src="Ping_Pong.js"></script>
+</body>
+</html>
